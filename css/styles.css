@@ -704,7 +704,6 @@ img {
   margin-right: 8px;
 }
 .modal-policy-label {
-  display: inline-flex;
   align-items: center;
   color: var(--Subtle-Text-color);
   font-size: 12px;
