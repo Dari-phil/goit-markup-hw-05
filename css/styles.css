@@ -556,7 +556,6 @@ img {
   padding: 0 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   color: var(--White-background-color);
   text-align: center;
   font-weight: 500;
@@ -572,6 +571,7 @@ img {
   background-color: var(--Pressed-state-color);
 }
 .footer-btn-icon {
+  margin-left: 16px;
 }
 
 /* !------------------MODAL------------------ */
