@@ -644,8 +644,11 @@ img {
 }
 .modal-form {
 }
+.label-wrap {
+  margin-bottom: 8px;
+}
 .modal-input-label {
-  display: inline-block;
+  display: block;
   color: var(--Subtle-Text-color);
   font-size: 12px;
   line-height: 1.17;
@@ -675,7 +678,6 @@ img {
 }
 .input-wrap {
   position: relative;
-  margin-bottom: 8px;
 }
 .input-icon {
   position: absolute;
@@ -685,13 +687,18 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.comment-wrap {
+  margin-bottom: 16px;
+}
 .comment {
   height: 120px;
   padding-left: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-bottom: 16px;
   resize: none;
+}
+.checkbox-wrap {
+  margin-bottom: 24px;
 }
 .modal-policy {
   margin-right: 8px;
@@ -703,28 +710,27 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-bottom: 24px;
 }
-.modal-policy-label span {
+.policy-icon-wrap {
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid var(--Modal-overlay-color);
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-policy:checked + .modal-policy-label span {
+.modal-policy:checked + .policy-icon-wrap {
   background-color: var(--Pressed-state-color);
   border: none;
   fill: var(--Light-color);
 }
-.modal-policy:hover + .modal-policy-label span,
-.modal-policy:focus + .modal-policy-label span {
+.modal-policy:hover + .policy-icon-wrap,
+.modal-policy:focus + .policy-icon-wrap {
   border-color: var(--Primary-Brand-color);
 }
 .policy-link {
