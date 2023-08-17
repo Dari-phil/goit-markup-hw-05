@@ -704,6 +704,7 @@ img {
   margin-right: 8px;
 }
 .modal-policy-label {
+  display: block;
   align-items: center;
   color: var(--Subtle-Text-color);
   font-size: 12px;
@@ -735,7 +736,6 @@ img {
 .policy-link {
   color: var(--Primary-Brand-color);
   line-height: 1.33;
-  margin-left: 4px;
 }
 .policy-icon {
 }
